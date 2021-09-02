@@ -1,5 +1,6 @@
 ActiveAdmin.register Universe do
 
+	permit_params :sample_statement, :universe_statement, :display_sample_statement, :make_sample_statement
   # See permitted parameters documentation:
   # https://github.com/activeadmin/activeadmin/blob/master/docs/2-resource-customization.md#setting-up-strong-parameters
   #

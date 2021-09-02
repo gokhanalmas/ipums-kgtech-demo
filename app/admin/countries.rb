@@ -1,4 +1,5 @@
 ActiveAdmin.register Country do
+    permit_params :short_name, :full_name, :continent, :is_old, :abbrev_long, :hide_status, :stats_office
 
   # See permitted parameters documentation:
   # https://github.com/activeadmin/activeadmin/blob/master/docs/2-resource-customization.md#setting-up-strong-parameters
