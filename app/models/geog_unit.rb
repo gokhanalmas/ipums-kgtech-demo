@@ -1,0 +1,2 @@
+class GeogUnit < ApplicationRecord
+end
